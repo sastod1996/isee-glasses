@@ -1,0 +1,169 @@
+
+.border {
+  border: 1px solid #888;
+}
+
+.padding-sm {
+  padding: 10px;
+}
+
+.uk-table th {
+  font-weight: bold;
+}
+
+.uk-accordion-title {
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  user-select: none;
+  text-align: center;
+  margin: 0;
+  border: 1px solid #ccc;
+
+  &.accordion-title-blue {
+    color: white;
+    background-color: #0f3d59;
+    border: 0;
+  }
+
+  &::before {
+    content: attr(data-index);
+    width: 1.4em;
+    height: 1.4em;
+    float: left;
+  }
+
+  &::after {
+    content: '▼';
+    width: 1.4em;
+    height: 1.4em;
+    float: right;
+    background: none;
+  }
+
+  .uk-open > &::after {
+    content: '▲';
+    background: none;
+  }
+}
+
+
+.uk-accordion > :nth-child(n+2) {
+  margin: 0;
+}
+
+.uk-accordion-content {
+  margin-bottom: 20px;
+}
+
+.isee-packs-section .uk-list li{
+  margin-top: 2px !important;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .uk-drop {
+    width: calc(100vw - 30px) !important;
+  }
+
+
+  .padding-remove\@xs { padding: 0 }
+  .margin-remove\@xs { margin: 0 }
+  .hidden\@xs { display: none }
+  .uk-accordion-title {
+    font-size: 14px;
+  }
+
+  .uk-radio:checked,
+  .uk-checkbox:checked,
+  .uk-radio:checked:focus,
+  .uk-checkbox:checked:focus,
+  .uk-checkbox:indeterminate:focus,
+  .uk-checkbox:indeterminate {
+    background-color: #a6dd2c;
+  }
+
+  .isee-packs {
+    font-weight: normal;
+  }
+
+  .isee-packs,
+  .text-medium {
+    font-size: 13px !important;
+  }
+
+  #prescription .uk-accordion  {
+    .uk-accordion-title::after {
+      background: none;
+    }
+
+    .uk-open .uk-accordion-title {
+      background: #a6dd2c;
+      color: white;
+    }
+  }
+
+  #packs .uk-accordion  {
+    .uk-accordion-title {
+      display: flex;
+      justify-content: space-between;
+
+      &::after, &::before {
+        display: none;
+      }
+
+      &.selected {
+        background: #a6dd2c;
+        color: white;
+        &::after {
+          content: '✓';
+        }
+      }
+      &.isee-pack-inactive {
+        background: #e7e4e5;
+        color: black;
+      }
+    }
+
+    .uk-list {
+      margin-bottom: 5px;
+
+      li{
+        font-size: 13px !important;
+      }
+    }
+  }
+
+  #characteristics {
+    .uk-drop {
+      width: calc(100vw - 60px) !important;
+    }
+
+    .tab {
+      border: 1px solid #aaa;
+      padding: 3px;
+      font-size: 12px;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .tab.uk-active {
+      background-color: #a6dd2c;
+      a {
+        color: white !important;
+      }
+    }
+
+    .uk-radio {
+      background-color: white;
+
+      &:checked {
+        background-color: #a6dd2c;
+      }
+    }
+  }
+}

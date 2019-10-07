@@ -1,0 +1,6 @@
+#select-characteristics,
+.modal-colorsizes {
+  .uk-grid + .uk-grid, .uk-grid > .uk-grid-margin, * + .uk-grid-margin {
+    margin-top: 0px !important;
+  }
+}

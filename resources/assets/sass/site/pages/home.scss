@@ -1,0 +1,167 @@
+.isee-zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.isee-zoom > .isee-body-zoom {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.isee-zoom:hover > .isee-body-zoom {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media (min-width: 300px) and (max-width: 640px) {
+  #slider {
+    .uk-button-large {
+      padding: 0 18px;
+      line-height: 30px;
+    }
+
+    .isee-h4 {
+      font-size: 14px;
+    }
+
+    .uk-h0 {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 640px) {
+  .isee-padding-xsmall {
+    padding: 0;
+  }
+
+  .uk-h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+  .uk-h2 {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .uk-h2 {
+    font-size: 1.5rem;
+    padding: 0.4rem;
+  }
+}
+
+.isee-modal-title {
+  font-size: 2.6rem;
+  line-height: 2.4rem;
+  margin-right: 10px;
+}
+
+.isee-modal-dialog {
+  width: 60%;
+}
+
+.isee-h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 1600px) {
+  .isee-modal-dialog {
+    width: 70%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .isee-modal-dialog {
+    width: 80%;
+  }
+
+  .isee-modal-title {
+    font-size: 2.75rem;
+    line-height: 2.85rem;
+    margin-right: 10px;
+  }
+
+  .isee-h1 {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+  .isee-modal-dialog {
+    width: 90%;
+  }
+
+  .isee-modal-title {
+    font-size: 2rem;
+    line-height: 40px;
+    margin-right: 10px;
+  }
+
+  .isee-h1 {
+    font-size: 1.65rem;
+    line-height: 1;
+  }
+
+  .uk-h5 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 640px) {
+  .isee-modal-dialog {
+    width: 100%;
+  }
+}
+
+.widget-small {
+  bottom: 2vh;
+}
+
+// Slider
+.isee-slider-item {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+
+  @media (min-width: 500px) {
+    padding-bottom: 60%;    
+  }
+
+  @media (min-width: 1000px) {
+    padding-bottom: 40%;    
+  }
+}
+
+

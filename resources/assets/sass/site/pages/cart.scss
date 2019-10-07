@@ -1,0 +1,21 @@
+.isee-border {
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #e7e4e5;
+}
+
+#cart-table {
+  .uk-table-small th, .uk-table-small td {
+    padding: 2px 12px;
+  }
+}
+
+#checkout-table {
+  .uk-table {
+    margin: 0;
+  }
+
+  .uk-table td {
+    padding: 2px 12px;
+  }
+}

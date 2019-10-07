@@ -1,0 +1,5122 @@
+{
+  "roles": [
+    {
+      "name": "Administrator"
+    },
+    {
+      "name": "Client"
+    },
+    {
+      "name": "Affiliate"
+    }
+  ],
+  "states": [
+    {
+      "name": "Emisión de orden",
+      "name_en": "Order sent"
+    },
+    {
+      "name": "Envío a laboratorio",
+      "name_en": "Laboratory"
+    },
+    {
+      "name": "Recepción en laboratorio",
+      "name_en": "Laboratory"
+    },
+    {
+      "name": "Envío al cliente",
+      "name_en": "Sent"
+    },
+    {
+      "name": "Entregado al cliente",
+      "name_en": "Delivered"
+    },
+    {
+      "name": "Anulado",
+      "name_en": "Canceled"
+    }
+  ],
+  "rates": [
+    {
+      "slug": "soles",
+      "currency": "soles",
+      "value": 1,
+      "symbol": "S/.",
+      "code": "PEN"
+    },
+    {
+      "slug": "dolares",
+      "currency": "dólares",
+      "value": 3,
+      "symbol": "$",
+      "code": "USD"
+    },
+    {
+      "slug": "euros",
+      "currency": "euros",
+      "value": 4,
+      "symbol": "€",
+      "code": "PEN"
+    }
+  ],
+  "users": [
+    {
+      "first_name": "Admin",
+      "last_name": "I-SEE Glasses",
+      "email": "admin@isee-glasses.com",
+      "telephone": 998765436,
+      "password": "adminpass",
+      "role_id": 1,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Develop",
+      "last_name": "Prodequa",
+      "email": "develop@prodequa.com",
+      "telephone": 998765435,
+      "password": "adminpass",
+      "role_id": 1,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Cliente",
+      "last_name": "Prodequa Uno",
+      "email": "cliente01@prodequa.com",
+      "telephone": 998765434,
+      "password": "password",
+      "role_id": 2,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Cliente",
+      "last_name": "Prodequa Dos",
+      "email": "cliente02@prodequa.com",
+      "telephone": 998765433,
+      "password": "password",
+      "role_id": 2,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Cliente",
+      "last_name": "Prodequa Tres",
+      "email": "cliente03@prodequa.com",
+      "telephone": 998765432,
+      "password": "password",
+      "role_id": 2,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Cliente",
+      "last_name": "Prodequa Cuatro",
+      "email": "cliente04@prodequa.com",
+      "telephone": 998765431,
+      "password": "password",
+      "role_id": 2,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Admin2",
+      "last_name": "I-SEE Glasses",
+      "email": "service@isee-glasses.com",
+      "telephone": 998765435,
+      "password": "adminpass",
+      "role_id": 1,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Asistente",
+      "last_name": "I-SEE Glasses",
+      "email": "asistente@isee-glasses.com",
+      "telephone": 998765435,
+      "password": "adminpass",
+      "role_id": 1,
+      "rate_id": 1
+    },
+    {
+      "first_name": "Diseño",
+      "last_name": "I-SEE Glasses",
+      "email": "diseno@isee-glasses.com",
+      "telephone": 998765435,
+      "password": "adminpass",
+      "role_id": 1,
+      "rate_id": 1
+    }
+  ],
+  "administrators": [
+    {
+      "user_id": 1
+    },
+    {
+      "user_id": 2
+    },
+    {
+      "user_id": 7
+    },
+    {
+      "user_id": 8
+    },
+    {
+      "user_id": 9
+    }
+  ],
+  "clients": [
+    {
+      "user_id": 3,
+      "country": "Peru",
+      "city": "Lima",
+      "address": "Jr. Belisario Suarez 100",
+      "reference": "",
+      "ally": 1
+    },
+    {
+      "user_id": 4,
+      "country": "Peru",
+      "city": "Lima",
+      "address": "Jr. Belisario Suarez 200",
+      "reference": ""
+    },
+    {
+      "user_id": 5,
+      "country": "Peru",
+      "city": "Lima",
+      "address": "Jr. Belisario Suarez 300",
+      "reference": ""
+    },
+    {
+      "user_id": 6,
+      "country": "Peru",
+      "city": "Lima",
+      "address": "Jr. Belisario Suarez 400",
+      "reference": ""
+    }
+  ],
+  "coupons": [
+    {
+      "code": "CODE01",
+      "percent": 21,
+      "limit": 20,
+      "start_date": "2017-06-02",
+      "end_date": "2017-10-02",
+      "count": 0,
+      "status": true
+    },
+    {
+      "code": "CODE02",
+      "percent": 21,
+      "limit": 50,
+      "start_date": "2017-06-02",
+      "end_date": "2017-10-02",
+      "count": 0,
+      "status": true
+    },
+    {
+      "code": "CODE03",
+      "percent": 21,
+      "limit": 50,
+      "start_date": "2017-06-02",
+      "end_date": "2017-10-02",
+      "count": 0,
+      "status": true
+    },
+    {
+      "code": "ISEEGLASSES50",
+      "percent": 50,
+      "limit": 1000,
+      "start_date": "2018-04-29",
+      "end_date": "2019-01-01",
+      "count": 0,
+      "status": true
+    }
+  ],
+  "prescriptions": [
+    {
+      "code": "PRISEE-01",
+      "name": "Prisee-01",
+      "esfod": 4.00,
+      "esfoi": 5.00,
+      "esfdip": 50,
+      "dip": 50,
+      "cilod": -6.00,
+      "ciloi": 5.50,
+      "axiod": 2,
+      "axioi": 2,
+      "addod": 2.00,
+      "addoi": 2.00,
+      "file": "",
+      "status": true,
+      "client_id": 1
+    },
+    {
+      "code": "PRISEE-02",
+      "name": "Prisee-02",
+      "esfod": 5,
+      "esfoi": -4.50,
+      "esfdip": 60,
+      "dip": 60,
+      "cilod": 4,
+      "ciloi": -1,
+      "axiod": 1,
+      "axioi": 1,
+      "addod": 1.00,
+      "addoi": 1.00,
+      "file": "",
+      "status": true,
+      "client_id": 2
+    },
+    {
+      "code": "PRISEE-03",
+      "name": "Prisee-03",
+      "esfod": -8,
+      "esfoi": -6,
+      "esfdip": 80,
+      "dip": 80,
+      "cilod": 3,
+      "ciloi": 4,
+      "axiod": 2,
+      "axioi": 2,
+      "addod": 2.00,
+      "addoi": 2.00,
+      "file": "",
+      "status": true,
+      "client_id": 2
+    },
+    {
+      "code": "PRISEE-04",
+      "name": "Prisee-04",
+      "esfod": -4,
+      "esfoi": -4,
+      "esfdip": 70,
+      "dip": 70,
+      "cilod": 4.50,
+      "ciloi": -4.25,
+      "axiod": 4,
+      "axioi": 4,
+      "addod": 4.00,
+      "addoi": 4.00,
+      "file": "",
+      "status": false,
+      "client_id": 3
+    },
+    {
+      "code": "PRISEE-05",
+      "name": "Prisee-05",
+      "esfod": 3.75,
+      "esfoi": -3,
+      "esfdip": 55,
+      "dip": 55,
+      "cilod": 3.50,
+      "ciloi": -4.25,
+      "axiod": 3,
+      "axioi": 3,
+      "addod": 3.00,
+      "addoi": 3.00,
+      "file": "",
+      "status": false,
+      "client_id": 3
+    },
+    {
+      "code": "PRISEE-06",
+      "name": "Prisee-06",
+      "esfod": -7.75,
+      "esfoi": 7,
+      "esfdip": 50,
+      "dip": 50,
+      "cilod": -5.50,
+      "ciloi": 5,
+      "axiod": 7,
+      "axioi": 7,
+      "addod": 4.00,
+      "addoi": 4.00,
+      "file": "",
+      "status": false,
+      "client_id": 4
+    },
+    {
+      "code": "PRISEE-07",
+      "name": "Prisee-07",
+      "esfod": 1,
+      "esfoi": 1,
+      "esfdip": 50,
+      "dip": 50,
+      "cilod": 1,
+      "ciloi": 1,
+      "axiod": 1,
+      "axioi": 1,
+      "addod": 4.00,
+      "addoi": 4.00,
+      "file": "",
+      "status": false,
+      "client_id": 4
+    },
+    {
+      "code": "PRISEE-08",
+      "name": "Prisee-08",
+      "esfod": 5,
+      "esfoi": 5,
+      "esfdip": 50,
+      "dip": 50,
+      "cilod": 5,
+      "ciloi": 5,
+      "axiod": 5,
+      "axioi": 5,
+      "addod": 4.00,
+      "addoi": 4.00,
+      "file": "",
+      "status": false,
+      "client_id": 4
+    }
+  ],
+  "characteristics": [
+    {
+      "slug": "marca",
+      "name": "Marca",
+      "name_en": "Brand",
+      "order": 1
+    },
+    {
+      "slug": "tamanio",
+      "name": "Tamaño",
+      "name_en": "Size",
+      "order": 2,
+      "multiple": true,
+      "deep": 0
+    },
+    {
+      "slug": "uso",
+      "name": "Uso",
+      "name_en": "Purpose",
+      "order": 3
+    },
+    {
+      "slug": "montura",
+      "name": "Montura",
+      "name_en": "Frames",
+      "order": 4
+    },
+    {
+      "slug": "forma",
+      "name": "Forma",
+      "name_en": "Shape",
+      "order": 5
+    },
+    {
+      "slug": "color",
+      "name": "Color",
+      "name_en": "Color",
+      "order": 6,
+      "multiple": true,
+      "deep": 0,
+      "view": 0
+    },
+    {
+      "slug": "genero",
+      "name": "Género",
+      "name_en": "Gender",
+      "order": 7
+    },
+    {
+      "slug": "tipo",
+      "name": "Tipo",
+      "name_en": "Type",
+      "order": 8
+    },
+    {
+      "slug": "material",
+      "name": "Material",
+      "name_en": "Material",
+      "order": 9
+    }
+  ],
+  "attributes": [
+    {
+      "slug": "oakley",
+      "name": "Oakley",
+      "name_en": "Oakley",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "rayban",
+      "name": "Rayban",
+      "name_en": "Rayban",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "vogue",
+      "name": "Vogue",
+      "name_en": "Vogue",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "calvin-klein",
+      "name": "Calvin Klein",
+      "name_en": "Calvin Klein",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "dragon",
+      "name": "Dragon",
+      "name_en": "Dragon",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "dolce",
+      "name": "Dolce",
+      "name_en": "Dolce",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "europtics",
+      "name": "Europtics",
+      "name_en": "Europtics",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "ferretti",
+      "name": "Ferretti",
+      "name_en": "Ferretti",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "express",
+      "name": "Express",
+      "name_en": "Express",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "nike",
+      "name": "Nike",
+      "name_en": "Nike",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "nine-west",
+      "name": "Nine West",
+      "name_en": "Nine West",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "guess",
+      "name": "Guess",
+      "name_en": "Guess",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "emporio-armani",
+      "name": "Emporio Armani",
+      "name_en": "Emporio Armani",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "puma",
+      "name": "Puma",
+      "name_en": "Puma",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "skechers",
+      "name": "Skechers",
+      "name_en": "Skechers",
+      "characteristic_id": 1,
+      "premium": 1
+    },
+    {
+      "slug": "s",
+      "name": "S",
+      "name_en": "S",
+      "characteristic_id": 2
+    },
+    {
+      "slug": "m",
+      "name": "M",
+      "name_en": "M",
+      "characteristic_id": 2
+    },
+    {
+      "slug": "l",
+      "name": "L",
+      "name_en": "L",
+      "characteristic_id": 2
+    },
+    {
+      "slug": "xl",
+      "name": "XL",
+      "name_en": "XL",
+      "characteristic_id": 2
+    },
+    {
+      "slug": "oftalmico",
+      "name": "Oftálmico",
+      "name_en": "Ophthalmic",
+      "characteristic_id": 3
+    },
+    {
+      "slug": "solares",
+      "name": "Solares",
+      "name_en": "Solar",
+      "characteristic_id": 3
+    },
+    {
+      "slug": "completa",
+      "name": "Completa",
+      "name_en": "Complete",
+      "characteristic_id": 4
+    },
+    {
+      "slug": "semi-al-aire",
+      "name": "Semi al aire",
+      "name_en": "Semi over the air",
+      "characteristic_id": 4
+    },
+    {
+      "slug": "al-aire",
+      "name": "Al aire",
+      "name_en": "In the air",
+      "characteristic_id": 4
+    },
+    {
+      "slug": "clasica",
+      "name": "Clásica",
+      "name_en": "Classic",
+      "characteristic_id": 5,
+      "status": 0
+    },
+    {
+      "slug": "ovalada",
+      "name": "Ovalada",
+      "name_en": "Oval",
+      "characteristic_id": 5
+    },
+    {
+      "slug": "redonda",
+      "name": "Redonda",
+      "name_en": "Round",
+      "characteristic_id": 5
+    },
+    {
+      "slug": "rectangular",
+      "name": "Rectangular",
+      "name_en": "Rectangular",
+      "characteristic_id": 5
+    },
+    {
+      "slug": "cuadrada",
+      "name": "Cuadrada",
+      "name_en": "Square",
+      "characteristic_id": 5
+    },
+    {
+      "slug": "agatada",
+      "name": "Agatada",
+      "name_en": "Agatada",
+      "characteristic_id": 5
+    },
+    {
+      "slug": "aviador",
+      "name": "Aviador",
+      "name_en": "Aviator",
+      "characteristic_id": 5
+    },
+    {
+      "slug": "amarillo",
+      "name": "Amarillo",
+      "name_en": "Yellow",
+      "primary": "Amarillo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul",
+      "name": "Azul",
+      "name_en": "Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-blanco",
+      "name": "Azul / Blanco",
+      "name_en": "Blue / White",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-celeste",
+      "name": "Azul / Celeste",
+      "name_en": "Blue / Light blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-demi-azul",
+      "name": "Azul / Demi Azul",
+      "name_en": "Blue / Demi Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-negro",
+      "name": "Azul / Negro",
+      "name_en": "Blue / Black",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-transparente",
+      "name": "Azul / Transparente",
+      "name_en": "Blue / Transparent",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-turquesa",
+      "name": "Azul / Turquesa",
+      "name_en": "Blue / Turquoise",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-madera",
+      "name": "Azul Madera",
+      "name_en": "Blue Wood",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-mate-celeste-mate",
+      "name": "Azul Mate / Celeste Mate",
+      "name_en": "Matte Blue / Light Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-mate-demi-azul-mate",
+      "name": "Azul Mate / Demi Azul Mate",
+      "name_en": "Matte Blue / Demi Matte Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "azul-transparente-negro",
+      "name": "Azul Transparente / Negro",
+      "name_en": "Transparent Blue / Black",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "blanco",
+      "name": "Blanco",
+      "name_en": "White",
+      "primary": "Blanco",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "blanco-negro",
+      "name": "Blanco / Negro",
+      "name_en": "White / Black",
+      "primary": "Blanco",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "blanco-rojo",
+      "name": "Blanco / Rojo",
+      "name_en": "White / Red",
+      "primary": "Blanco",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "celeste",
+      "name": "Celeste",
+      "name_en": "Light Blue",
+      "primary": "Celeste",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "concha-vino",
+      "name": "Concha Vino",
+      "name_en": "Concha Vino",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-azul",
+      "name": "Demi Azul",
+      "name_en": "Demi Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-azul-azul",
+      "name": "Demi Azul / Azul",
+      "name_en": "Demi Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-azul-mate-azul-mate",
+      "name": "Demi Azul Mate / Azul Mate",
+      "name_en": "Demi Matte Blue / Matte Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-azul-transparente",
+      "name": "Demi Azul Transparente",
+      "name_en": "Demi Transparent Blue",
+      "primary": "Azul",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-celeste",
+      "name": "Demi Celeste",
+      "name_en": "",
+      "primary": "Celeste",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-fucsia",
+      "name": "Demi Fucsia",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-gris-azul-transparente",
+      "name": "Demi Gris / Azul Transparente",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-gris-transparente",
+      "name": "Demi Gris Transparente",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron",
+      "name": "Demi Marrón",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-amarillo",
+      "name": "Demi Marrón / Amarillo",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-azul",
+      "name": "Demi Marrón / Azul",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-beige",
+      "name": "Demi Marrón / Beige",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-beige-dorado",
+      "name": "Demi Marrón / Beige / Dorado",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-blanco",
+      "name": "Demi Marrón / Blanco",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-celeste",
+      "name": "Demi Marrón / Celeste",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-demi-verde",
+      "name": "Demi Marrón / Demi Verde",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-gris",
+      "name": "Demi Marrón / Gris",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-gris-claro",
+      "name": "Demi Marrón / Gris Claro",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-gris-transparente",
+      "name": "Demi Marrón / Gris Transparente",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-marron",
+      "name": "Demi Marrón / Marrón",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-marron-claro",
+      "name": "Demi Marrón / Marrón Claro",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-morado",
+      "name": "Demi Marrón / Morado",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-purpura",
+      "name": "Demi Marrón / Púrpura",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-rosado",
+      "name": "Demi Marrón / Rosado",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-turquesa",
+      "name": "Demi Marrón / Turquesa",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-verde",
+      "name": "Demi Marrón / Verde",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-claro",
+      "name": "Demi Marrón Claro",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-claro-negro",
+      "name": "Demi Marrón Claro / Negro",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-mate",
+      "name": "Demi Marrón Mate",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-mate-azul-mate",
+      "name": "Demi Marrón Mate / Azul Mate",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-marron-transparente",
+      "name": "Demi Marrón Transparente",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-morado-morado-transparente",
+      "name": "Demi Morado / Morado Transparente",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-negro-verde-madera",
+      "name": "Demi Negro Verde Madera",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-rojo",
+      "name": "Demi Rojo",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-rojo-rojo",
+      "name": "Demi Rojo / Rojo",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-rojo-transparente",
+      "name": "Demi Rojo Transparente",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-verde",
+      "name": "Demi Verde",
+      "name_en": "",
+      "primary": "Verde",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-verde-transparente",
+      "name": "Demi Verde Transparente",
+      "name_en": "",
+      "primary": "Verde",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-vino-demi-marron",
+      "name": "Demi Vino / Demi Marrón",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "demi-vino-transparente",
+      "name": "Demi Vino Transparente",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado",
+      "name": "Dorado",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado-negro",
+      "name": "Dorado / Negro",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado-marron",
+      "name": "Dorado / Marrón",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado-beige",
+      "name": "Dorado / Beige",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado-demi-marron",
+      "name": "Dorado / Demi Marrón",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado-plomo",
+      "name": "Dorado / Plomo",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado-rojo",
+      "name": "Dorado / Rojo",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "dorado-vino",
+      "name": "Dorado / Vino",
+      "name_en": "",
+      "primary": "Dorado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "fucsia",
+      "name": "Fucsia",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "fucsia-negro",
+      "name": "Fucsia / Negro",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "gris",
+      "name": "Gris",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "gris-blanco",
+      "name": "Gris / Blanco",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "gris-demi-marron",
+      "name": "Gris / Demi Marrón",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "gris-claro-degrade-marron-claro",
+      "name": "Gris Claro Degrade Marrón Claro",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "gris-madera",
+      "name": "Gris Madera",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "gris-transparente-rojo",
+      "name": "Gris Transparente / Rojo",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "guinda",
+      "name": "Guinda",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "guinda-turquesa",
+      "name": "Guinda / Turquesa",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marmol-gris",
+      "name": "Mármol / Gris",
+      "name_en": "",
+      "primary": "Gris",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron",
+      "name": "Marrón",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-beige-transparente",
+      "name": "Marrón / Beige Transparente",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-celeste",
+      "name": "Marrón / Celeste",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-claro",
+      "name": "Marrón / Claro",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-demi-marron",
+      "name": "Marrón / Demi Marrón",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-demi-marron-degrade-marron-claro",
+      "name": "Marrón / Demi Marrón Degrade Marrón Claro",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-marron-claro",
+      "name": "Marrón / Marrón Claro",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-marron-claro-transparente",
+      "name": "Marrón / Marrón Claro Transparente",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-marron-transparente",
+      "name": "Marrón / Marrón Transparente",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-naranja",
+      "name": "Marrón / Naranja",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-rojo",
+      "name": "Marrón / Rojo",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-verde-transparente",
+      "name": "Marrón / Verde Transparente",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-claro-dorado",
+      "name": "Marrón Claro / Dorado",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-claro-marron",
+      "name": "Marrón Claro / Marrón",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-degrade-demi-marron",
+      "name": "Marrón Degrade Demi Marrón",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-madera",
+      "name": "Marrón Madera",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-madera-gris",
+      "name": "Marrón Madera / Gris",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-mate",
+      "name": "Marrón Mate",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-mate-naranja-mate",
+      "name": "Marrón Mate / Naranja Mate",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-transparente",
+      "name": "Marrón Transparente",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "marron-azul",
+      "name": "Marrón / Azul",
+      "name_en": "",
+      "primary": "Marrón",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "morado",
+      "name": "Morado",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "morado-demi-morado",
+      "name": "Morado / Demi Morado",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "morado-demi-plomo",
+      "name": "Morado / Demi Plomo",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "morado-fucsia",
+      "name": "Morado / Fucsia",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "morado-gris-claro",
+      "name": "Morado / Gris Claro",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "morado-madera",
+      "name": "Morado Madera",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "morado-transparente",
+      "name": "Morado Transparente",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "naranja",
+      "name": "Naranja",
+      "name_en": "",
+      "primary": "Naranja",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro",
+      "name": "Negro",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-amarillo",
+      "name": "Negro / Amarillo",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-azul",
+      "name": "Negro / Azul",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-azul-transparente",
+      "name": "Negro / Azul Transparente",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-beige",
+      "name": "Negro / Beige",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-blanco",
+      "name": "Negro / Blanco",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-blanco-flores",
+      "name": "Negro / Blanco Flores",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-celeste",
+      "name": "Negro / Celeste",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-demi-gris",
+      "name": "Negro / Demi Gris",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-demi-negro",
+      "name": "Negro / Demi Negro",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-demi-rojo",
+      "name": "Negro / Demi Rojo",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-demi-verde",
+      "name": "Negro / Demi Verde",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-fucsia",
+      "name": "Negro / Fucsia",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-gris",
+      "name": "Negro / Gris",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-gris-transparente",
+      "name": "Negro / Gris Transparente",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-marron",
+      "name": "Negro / Marrón",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-morado",
+      "name": "Negro / Morado",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-naranja",
+      "name": "Negro / Naranja",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-rojo",
+      "name": "Negro / Rojo",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-rojo-degrade-demi-marron",
+      "name": "Negro / Rojo Degrade Demi Marrón",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-rosado",
+      "name": "Negro / Rosado",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-transparente",
+      "name": "Negro / Transparente",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-turquesa",
+      "name": "Negro / Turquesa",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-verde",
+      "name": "Negro / Verde",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-verde-claro",
+      "name": "Negro / Verde Claro",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-brillante-rojo",
+      "name": "Negro Brillante / Rojo",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-degrade-demi-marron",
+      "name": "Negro Degrade Demi Marrón",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-espejado",
+      "name": "Negro Espejado",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-madera",
+      "name": "Negro Madera",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-madera-blanco-madera",
+      "name": "Negro Madera / Blanco Madera",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-madera-demi-gris-madera",
+      "name": "Negro Madera / Demi Gris Madera",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-madera-demi-rojo-madera",
+      "name": "Negro Madera / Demi Rojo Madera",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-madera-demi-rosado-madera",
+      "name": "Negro Madera / Demi Rosado Madera",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-madera-naranja",
+      "name": "Negro Madera / Naranja",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-madera-verde-claro-madera",
+      "name": "Negro Madera / Verde Claro Madera",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate",
+      "name": "Negro Mate",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-amarillo",
+      "name": "Negro Mate / Amarillo",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-demi-marron-mate",
+      "name": "Negro Mate / Demi Marrón Mate",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-gris-mate",
+      "name": "Negro Mate / Gris Mate",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-marron",
+      "name": "Negro Mate / Marrón",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-morado-mate",
+      "name": "Negro Mate / Morado Mate",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-rojo",
+      "name": "Negro Mate / Rojo",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-rojo-mate",
+      "name": "Negro Mate / Rojo Mate",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "negro-mate-transparente-mate",
+      "name": "Negro Mate / Transparente Mate",
+      "name_en": "",
+      "primary": "Negro",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "plata",
+      "name": "Plata",
+      "name_en": "",
+      "primary": "Plata",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "plata-negro",
+      "name": "Plata / Negro",
+      "name_en": "",
+      "primary": "Plata",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "plata-mate-negro",
+      "name": "Plata Mate / Negro",
+      "name_en": "",
+      "primary": "Plata",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "plata-oscuro-negro",
+      "name": "Plata Oscuro / Negro",
+      "name_en": "",
+      "primary": "Plata",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "plateado-negro",
+      "name": "Plateado / Negro",
+      "name_en": "",
+      "primary": "Plata",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "purpura",
+      "name": "Púrpura",
+      "name_en": "",
+      "primary": "Morado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rojo",
+      "name": "Rojo",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rojo-degrade-claro",
+      "name": "Rojo / Degrade Claro",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rojo-demi-morado",
+      "name": "Rojo / Demi Morado",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rojo-negro",
+      "name": "Rojo / Negro",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rojo-rosado",
+      "name": "Rojo / Rosado",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rojo-transparente",
+      "name": "Rojo Transparente",
+      "name_en": "",
+      "primary": "Rojo",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rosado",
+      "name": "Rosado",
+      "name_en": "",
+      "primary": "Rosado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "rosado-mate",
+      "name": "Rosado Mate",
+      "name_en": "",
+      "primary": "Rosado",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "turquesa-celeste",
+      "name": "Turquesa / Celeste",
+      "name_en": "",
+      "primary": "Celeste",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "turquesa-gris",
+      "name": "Turquesa / Gris",
+      "name_en": "",
+      "primary": "Celeste",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "verde",
+      "name": "Verde",
+      "name_en": "",
+      "primary": "Verde",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "verde-claro-marron",
+      "name": "Verde Claro / Marrón",
+      "name_en": "",
+      "primary": "Verde",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "verde-madera-negro",
+      "name": "Verde Madera / Negro",
+      "name_en": "",
+      "primary": "Verde",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "verde-transparente",
+      "name": "Verde Transparente",
+      "name_en": "",
+      "primary": "Verde",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "verde-negro",
+      "name": "Verde / Negro",
+      "name_en": "",
+      "primary": "Verde",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "vino",
+      "name": "Vino",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "vino-madera-vino",
+      "name": "Vino Madera / Vino",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "vino-mate-verde-mate",
+      "name": "Vino Mate / Verde Mate",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "vino-transparente",
+      "name": "Vino Transparente",
+      "name_en": "",
+      "primary": "Vino",
+      "characteristic_id": 6
+    },
+    {
+      "slug": "hombre",
+      "name": "Hombre",
+      "name_en": "Man",
+      "characteristic_id": 7
+    },
+    {
+      "slug": "mujer",
+      "name": "Mujer",
+      "name_en": "Woman",
+      "characteristic_id": 7
+    },
+    {
+      "slug": "unisex",
+      "name": "Unisex",
+      "name_en": "Unisex",
+      "characteristic_id": 7
+    },
+    {
+      "slug": "monofocales",
+      "name": "Monofocales",
+      "name_en": "Monofocal",
+      "characteristic_id": 8
+    },
+    {
+      "slug": "multifocales",
+      "name": "Multifocales",
+      "name_en": "Multifocal",
+      "characteristic_id": 8
+    },
+    {
+      "slug": "acetato",
+      "name": "Acetato",
+      "name_en": "Acetato",
+      "characteristic_id": 9
+    },
+    {
+      "slug": "metal",
+      "name": "Metal",
+      "name_en": "Metal",
+      "characteristic_id": 9
+    },
+    {
+      "slug": "plastico",
+      "name": "Plástico",
+      "name_en": "plastic",
+      "characteristic_id": 9
+    },
+    {
+      "slug": "jt",
+      "name": "JT",
+      "name_en": "JT",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "camino",
+      "name": "Camino",
+      "name_en": "Camino",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "dmost",
+      "name": "DMOST",
+      "name_en": "DMOST",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "vianchi",
+      "name": "Vianchi",
+      "name_en": "Vianchi",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "miro",
+      "name": "Miro",
+      "name_en": "Miro",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "mask",
+      "name": "Mask",
+      "name_en": "Mask",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "clasberg-vision",
+      "name": "Clasberg Vision",
+      "name_en": "Clasberg Vision",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "esquio",
+      "name": "Esquio",
+      "name_en": "Esquio",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "gisally",
+      "name": "Gisally",
+      "name_en": "Gisally",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "guido-capozzi",
+      "name": "Guido Capozzi",
+      "name_en": "Guido Capozzi",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "le-blanc",
+      "name": "Le Blanc",
+      "name_en": "Le Blanc",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "marco-coppola",
+      "name": "Marco Coppola",
+      "name_en": "Marco Coppola",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "matsuda",
+      "name": "Matsuda",
+      "name_en": "Matsuda",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "maura-monti",
+      "name": "Maura Monti",
+      "name_en": "Maura Monti",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "mercury",
+      "name": "Mercury",
+      "name_en": "Mercury",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "milenius",
+      "name": "Milenius",
+      "name_en": "Milenius",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "napolini",
+      "name": "Napolini",
+      "name_en": "Napolini",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "pegasus",
+      "name": "Pegasus",
+      "name_en": "Pegasus",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "polar",
+      "name": "Polar",
+      "name_en": "Polar",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "praiatt",
+      "name": "Praiatt",
+      "name_en": "Praiatt",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "qlook",
+      "name": "Qlook",
+      "name_en": "Qlook",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "razza",
+      "name": "Razza",
+      "name_en": "Razza",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "rick-davaz",
+      "name": "Rick Davaz",
+      "name_en": "Rick Davaz",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "star-optical",
+      "name": "Star Optical",
+      "name_en": "Star Optical",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "u2",
+      "name": "U2",
+      "name_en": "U2",
+      "characteristic_id": 1,
+      "view": 0
+    },
+    {
+      "slug": "niños",
+      "name": "Niños",
+      "name_en": "Niños",
+      "characteristic_id": 7
+    }
+  ],
+  "products": [],
+  "attribute_product": [],
+  "color_sizes": [],
+  "images": [],
+  "cameras": [],
+
+
+  "categories": [
+    {
+      "name": "Novedades",
+      "name_en": "New arrivals",
+      "slug": "novedades",
+      "description": "Novedades en lentes"
+    },
+    {
+      "name": "Promociones",
+      "name_en": "Sale",
+      "slug": "promociones",
+      "description": "Promociones en lentes"
+    }
+  ],
+  "category_product" : [],
+  "types": [
+    {
+      "name": "De distancia",
+      "name_en": "Distance",
+      "slug": "de-distancia",
+      "image": "/pages/producto/types/de-distancia.jpg",
+      "description": "Estos lentes son para ayudarte a ver distancias largas",
+      "description_en": "These lenses are to help you see long distances"
+    },
+    {
+      "name": "De cerca",
+      "name_en": "Close-up",
+      "slug": "de-cerca",
+      "image": "/pages/producto/types/de-cerca.jpg",
+      "description": "Estos lentes son para ayudarte a ver a distancias cortas y te permitirán entre otras cosas: leer, escribir, etc.",
+      "description_en": "These glasses are to help you to see at short distances and will allow you among other things: reading, writing, etc."
+    },
+    {
+      "name": "Bifocales",
+      "name_en": "Bifocals",
+      "slug": "bifocales",
+      "image": "/pages/producto/types/bifocales.jpg",
+      "description": "Este tipo de lentes tienen dos campos de visión distintos y separados: para ver de lejos y para ver de cerca. Una línea visible separa estos dos campos de visión.",
+      "description_en": "These glasses have two separate and separate fields of vision: to see from afar and to see up close. A visible line separates these two fields of view."
+    },
+    {
+      "name": "Progresivo",
+      "name_en": "Progresive",
+      "slug": "progresivo",
+      "image": "/pages/producto/types/progresivo.jpg",
+      "description": "Las lentes progresivas tienen una graduación progresiva de cerca a lejos. De este modo, la parte inferior de la lente está graduada para visión de cerca, la parte central está graduada para la visión intermedia y la superior para visión de lejos.",
+      "description_en": "Progressive lenses have a progressive graduation from near to far. In this way, the lower part of the lens is graded for near vision, the middle part is graduated for intermediate vision and the upper for far vision."
+    },
+    {
+      "name": "Sin medida",
+      "name_en": "Measureless",
+      "slug": "sin-medida",
+      "image": "/pages/producto/types/sin-medida.jpg",
+      "description": "Los lentes sin medida se utilizan cuando básicamente quieres utilizar unas gafas como un accesorio adicional a tu vestir diario.",
+      "description_en": "Unmeasured lenses are used when you basically want to wear glasses as an additional accessory to your daily wear."
+    }
+  ],
+  "packs": [
+    {
+      "name": "Básico",
+      "name_en": "Basic",
+      "slug": "basico"
+    },
+    {
+      "name": "Regular",
+      "name_en": "Regular",
+      "slug": "regular"
+    },
+    {
+      "name": "Intermedio",
+      "name_en": "Intermediate",
+      "slug": "intermedio"
+    },
+    {
+      "name": "Superior",
+      "name_en": "Top",
+      "slug": "superior"
+    },
+    {
+      "name": "Extra",
+      "name_en": "Extra",
+      "slug": "extra"
+    },
+    {
+      "name": "Élite",
+      "name_en": "Elite",
+      "slug": "elite"
+    }
+  ],
+  "type_packs": [
+    {
+      "type_id": 1,
+      "pack_id": 1,
+      "price": 0.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina UV",
+      "material_en": "Resina UV",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "help": "Incluye las lunas totalmente gratis en el precio de las gafas. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV.",
+      "help_en": "Incluye las lunas totalmente gratis en el precio de las gafas. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV."
+    },
+    {
+      "type_id": 1,
+      "pack_id": 2,
+      "price": 70.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina AR",
+      "material_en": "Resina AR",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "help": "Contiene 4 características importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV.",
+      "help_en": "Contiene 4 características importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV."
+    },
+    {
+      "type_id": 1,
+      "pack_id": 3,
+      "price": 170.00,
+      "esfmin": -6,
+      "esfmax": 6,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Poly AR",
+      "material_en": "Poly AR",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.59</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.59</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "help": "Ofrece un material mucho más resistente a los golpes que otros materiales. El material de las lentes es de Policarbonato, que son hasta 10 veces más resistentes y más livianos que los lentes de resina. Índice de Refracción 1.59, este tipo de lentes es recomendable para medidas de la Esfera entre -4.00 a +4.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones.",
+      "help_en": "Ofrece un material mucho más resistente a los golpes que otros materiales. El material de las lentes es de Policarbonato, que son hasta 10 veces más resistentes y más livianos que los lentes de resina. Índice de Refracción 1.59, este tipo de lentes es recomendable para medidas de la Esfera entre -4.00 a +4.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones."
+    },
+    {
+      "type_id": 1,
+      "pack_id": 4,
+      "price": 270.00,
+      "esfmin": -8,
+      "esfmax": 8,
+      "cilmin": -4,
+      "cilmax": 4,
+      "material": "Resina 1.67 ED",
+      "material_en": "Resina 1.67 ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li></ul>",
+      "help": "Ofrece una alta gama de bondades que ayudan a tener lentes más delgados que un paquete básico. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -6.00 a +6.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes.",
+      "help_en": "Ofrece una alta gama de bondades que ayudan a tener lentes más delgados que un paquete básico. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -6.00 a +6.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes."
+    },
+    {
+      "type_id": 1,
+      "pack_id": 5,
+      "price": 370.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina 1.67 HD ED",
+      "material_en": "Resina 1.67 HD ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "help": "Ofrece la más alta tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -8.00 a +8.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual.",
+      "help_en": "Ofrece la más alta tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -8.00 a +8.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual."
+    },
+    {
+      "type_id": 1,
+      "pack_id": 6,
+      "price": 470.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -4,
+      "cilmax": 4,
+      "material": "Resina Free Form ED",
+      "material_en": "Resina Free Form ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>GRABADO LÁSER DE INICIALES</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>GRABADO LÁSER DE INICIALES</li></ul>",
+      "help": "Ofrece la más avanzada tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Resina 1.5 con tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual. Es recomendable para medidas de la esfera entre -10.00 y +8.00. Grabado de iniciales del usuario, esta tecnología permite que pueda grabar hasta 2 iniciales del nombre del usuario, haciendo que sus lentes sean completamente personalizados.",
+      "help_en": "Ofrece la más avanzada tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Resina 1.5 con tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual. Es recomendable para medidas de la esfera entre -10.00 y +8.00. Grabado de iniciales del usuario, esta tecnología permite que pueda grabar hasta 2 iniciales del nombre del usuario, haciendo que sus lentes sean completamente personalizados."
+    },
+    {
+      "type_id": 2,
+      "pack_id": 1,
+      "price": 0.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina UV",
+      "material_en": "Resina UV",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "help": "Incluye las lunas totalmente gratis en el precio de las gafas. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV.",
+      "help_en": "Incluye las lunas totalmente gratis en el precio de las gafas. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV."
+    },
+    {
+      "type_id": 2,
+      "pack_id": 2,
+      "price": 70.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina AR",
+      "material_en": "Resina AR",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "help": "Contiene 4 características importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones.",
+      "help_en": "Contiene 4 características importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones."
+    },
+    {
+      "type_id": 2,
+      "pack_id": 3,
+      "price": 170.00,
+      "esfmin": -6,
+      "esfmax": 6,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Poly AR",
+      "material_en": "Poly AR",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.59</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>CAPA ANTI-REFLEJO</li></ul>",
+      "help": "Ofrece un material mucho más resistente a los golpes que otros materiales. El material de las lentes es de Policarbonato, que son hasta 10 veces más resistentes y más livianos que los lentes de resina. Índice de Refracción 1.59, este tipo de lentes es recomendable para medidas de la Esfera entre -4.00 a +4.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones.",
+      "help_en": "Ofrece un material mucho más resistente a los golpes que otros materiales. El material de las lentes es de Policarbonato, que son hasta 10 veces más resistentes y más livianos que los lentes de resina. Índice de Refracción 1.59, este tipo de lentes es recomendable para medidas de la Esfera entre -4.00 a +4.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones."
+    },
+    {
+      "type_id": 2,
+      "pack_id": 4,
+      "price": 270.00,
+      "esfmin": -8,
+      "esfmax": 8,
+      "cilmin": -4,
+      "cilmax": 4,
+      "material": "Resina 1.67 ED",
+      "material_en": "Resina 1.67 ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>CAPA ANTI RAYAS</li></ul>",
+      "help": "Ofrece una alta gama de bondades que ayudan a tener lentes más delgados que un paquete básico. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -6.00 a +6.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes.",
+      "help_en": "Ofrece una alta gama de bondades que ayudan a tener lentes más delgados que un paquete básico. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -6.00 a +6.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes."
+    },
+    {
+      "type_id": 2,
+      "pack_id": 5,
+      "price": 370.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina 1.67 HD ED",
+      "material_en": "Resina 1.67 HD ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "help": "Ofrece la más alta tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -8.00 a +8.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual.",
+      "help_en": "Ofrece la más alta tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -8.00 a +8.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual."
+    },
+    {
+      "type_id": 2,
+      "pack_id": 6,
+      "price": 470.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina Free Form ED",
+      "material_en": "Resina Free Form ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>GRABADO LÁSER DE INICIALES</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>GRABADO LÁSER DE INICIALES</li></ul>",
+      "help": "Ofrece la más avanzada tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Resina 1.5 con tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual. Es recomendable para medidas de la esfera entre -10.00 y +8.00. Grabado de iniciales del usuario, esta tecnología permite que pueda grabar hasta 2 iniciales del nombre del usuario, haciendo que sus lentes sean completamente personalizados.",
+      "help_en": "Ofrece la más avanzada tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Resina 1.5 con tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual. Es recomendable para medidas de la esfera entre -10.00 y +8.00. Grabado de iniciales del usuario, esta tecnología permite que pueda grabar hasta 2 iniciales del nombre del usuario, haciendo que sus lentes sean completamente personalizados."
+    },
+    {
+      "type_id": 3,
+      "pack_id": 1,
+      "price": 70.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina UV FT",
+      "material_en": "Resina UV FT",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "help": "Ofrece las siguientes bondades: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV.",
+      "help_en": "Ofrece las siguientes bondades: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV."
+    },
+    {
+      "type_id": 3,
+      "pack_id": 2,
+      "price": 140.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina AR FT",
+      "material_en": "Resina AR FT",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI-REFLEJO</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI-REFLEJO</li></ul>",
+      "help": "Contiene caracteristicas importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones.",
+      "help_en": "Contiene caracteristicas importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones."
+    },
+    {
+      "type_id": 3,
+      "pack_id": 3,
+      "price": 210.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina UV IV",
+      "material_en": "Resina UV IV",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "help": "Ofrece lentes bifocales invisibles con el siguiente detalle: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa",
+      "help_en": "Ofrece lentes bifocales invisibles con el siguiente detalle: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa"
+    },
+    {
+      "type_id": 3,
+      "pack_id": 4,
+      "price": 290.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina AR IV",
+      "material_en": "Resina AR IV",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI REFLEJO</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI REFLEJO</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "help": "Ofrece lentes bifocales invisibles con el siguiente detalle: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa.",
+      "help_en": "Ofrece lentes bifocales invisibles con el siguiente detalle: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa."
+    },
+    {
+      "type_id": 3,
+      "pack_id": 5,
+      "price": 370.00,
+      "esfmin": -6,
+      "esfmax": 6,
+      "cilmin": -4,
+      "cilmax": 4,
+      "material": "Resina Free Form IV ED",
+      "material_en": "Resina Free Form IV ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "help": "Ofrece lentes bifocales invisibles con la más avanzada tecnología Free Form. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -6.00 a +6.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa.",
+      "help_en": "Ofrece lentes bifocales invisibles con la más avanzada tecnología Free Form. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -6.00 a +6.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa."
+    },
+    {
+      "type_id": 3,
+      "pack_id": 6,
+      "price": 450.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina 1.67 Fre Form IV ED",
+      "material_en": "Resina 1.67 Fre Form IV ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>FOCO DE LECTURA INVISIBLE</li></ul>",
+      "help": "Ofrece lentes bifocales invisibles con la más avanzada tecnología Free Form. Resina 1.67 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nítida y con los lentes más delgados que la Resina básica para medidas altas, se recomienda para medidas de Esfera de entre -10.00 a +8.00. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa.",
+      "help_en": "Ofrece lentes bifocales invisibles con la más avanzada tecnología Free Form. Resina 1.67 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nítida y con los lentes más delgados que la Resina básica para medidas altas, se recomienda para medidas de Esfera de entre -10.00 a +8.00. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Lente bifocal Invisible, esto permite que no exista una raya visible entre la medida de visión de lejos y la medida de visión de cerca, evitando el paso molesto de la visión de una vista cercana a una vista lejana o viceversa."
+    },
+    {
+      "type_id": 4,
+      "pack_id": 1,
+      "price": 140.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina UV",
+      "material_en": "Resina UV",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "help": "Ofrece las siguientes bondades: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV.",
+      "help_en": "Ofrece las siguientes bondades: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV."
+    },
+    {
+      "type_id": 4,
+      "pack_id": 2,
+      "price": 210.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina ED",
+      "material_en": "Resina ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li></ul>",
+      "help": "Contiene caracteristicas importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes.",
+      "help_en": "Contiene caracteristicas importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes."
+    },
+    {
+      "type_id": 4,
+      "pack_id": 3,
+      "price": 280.00,
+      "esfmin": -6,
+      "esfmax": 6,
+      "cilmin": -4,
+      "cilmax": 4,
+      "material": "Resina Free Form HD ED",
+      "material_en": "Resina Free Form HD ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "help": "Ofrece lentes progresivos con la más avanzada tecnología Free Form. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -4.00 a +4.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes.",
+      "help_en": "Ofrece lentes progresivos con la más avanzada tecnología Free Form. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -4.00 a +4.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes."
+    },
+    {
+      "type_id": 4,
+      "pack_id": 4,
+      "price": 470.00,
+      "esfmin": -6,
+      "esfmax": 6,
+      "cilmin": -4,
+      "cilmax": 4,
+      "material": "Resina Free Form HD AR",
+      "material_en": "Resina Free Form HD AR",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI REFLEJO</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI REFLEJO</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "help": "Ofrece lentes progresivos con la más avanzada tecnología Free Form. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -6.00 a +6.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar estas acciones.",
+      "help_en": "Ofrece lentes progresivos con la más avanzada tecnología Free Form. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -6.00 a +6.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar estas acciones."
+    },
+    {
+      "type_id": 4,
+      "pack_id": 5,
+      "price": 720.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina Free Form Full HD ED",
+      "material_en": "Resina Free Form Full HD ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "help": "Ofrece lentes progresivos con la más avanzada tecnología Free Form full HD que permite tener 25% más campo de visión que un progresivo convencional. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -6.00 a +6.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes.",
+      "help_en": "Ofrece lentes progresivos con la más avanzada tecnología Free Form full HD que permite tener 25% más campo de visión que un progresivo convencional. Resina 1.5 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, se recomienda para medidas de Esfera de entre -6.00 a +6.00. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes."
+    },
+    {
+      "type_id": 4,
+      "pack_id": 6,
+      "price": 920.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina 1.67 Free Form Full HD",
+      "material_en": "Resina 1.67 Free Form Full HD",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "help": "Ofrece lentes progresivos con la más avanzada tecnología Free Form full HD que permite tener 25% más campo de visión que un progresivo convencional. Resina 1.67 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, con lentes 30% más delgados que aquellos con Resina básica 1.50 y se recomiendan para medidas de Esfera de entre -10.00 a +8.00. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes.",
+      "help_en": "Ofrece lentes progresivos con la más avanzada tecnología Free Form full HD que permite tener 25% más campo de visión que un progresivo convencional. Resina 1.67 con tecnología Free Form, se utiliza la última tecnología en el tallado de lentes permitiendo tener una visión 100% nitida, con lentes 30% más delgados que aquellos con Resina básica 1.50 y se recomiendan para medidas de Esfera de entre -10.00 a +8.00. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes."
+    },
+    {
+      "type_id": 5,
+      "pack_id": 1,
+      "price": 0.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina UV",
+      "material_en": "Resina UV",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li></ul>",
+      "help": "Incluye las lunas totalmente gratis en el precio de las gafas. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV.",
+      "help_en": "Incluye las lunas totalmente gratis en el precio de las gafas. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV."
+    },
+    {
+      "type_id": 5,
+      "pack_id": 2,
+      "price": 70.00,
+      "esfmin": -4,
+      "esfmax": 4,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Resina AR",
+      "material_en": "Resina AR",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI-REFLEJO</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI-REFLEJO</li></ul>",
+      "help": "Contiene 4 características importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones.",
+      "help_en": "Contiene 4 características importantes como son: El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.5, este tipo de lentes es recomendable para medidas de la Esfera entre -2.00 a +2.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones."
+    },
+    {
+      "type_id": 5,
+      "pack_id": 3,
+      "price": 170.00,
+      "esfmin": -6,
+      "esfmax": 6,
+      "cilmin": -2,
+      "cilmax": 2,
+      "material": "Poly AR",
+      "material_en": "Poly AR",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.59</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI-REFLEJO</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.59</li><li>LUNAS DE POLICARBONATO</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI-REFLEJO</li></ul>",
+      "help": "Ofrece un material mucho más resistente a los golpes que otros materiales. El material de las lentes es de Policarbonato, que son hasta 10 veces más resistentes y más livianos que los lentes de resina. Índice de Refracción 1.59, este tipo de lentes es recomendable para medidas de la Esfera entre -4.00 a +4.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones.",
+      "help_en": "Ofrece un material mucho más resistente a los golpes que otros materiales. El material de las lentes es de Policarbonato, que son hasta 10 veces más resistentes y más livianos que los lentes de resina. Índice de Refracción 1.59, este tipo de lentes es recomendable para medidas de la Esfera entre -4.00 a +4.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Propiedad Anti-Reflejo, permite una visión clara, 100% transparente, eliminando el reflejo molesto de las luces artificiales de los faros de los autos al manejar de noche o de la lectura en la computadora, etc. permitiendo que tu visión no se perjudique y no se exija al realizar esta acciones."
+    },
+    {
+      "type_id": 5,
+      "pack_id": 4,
+      "price": 270.00,
+      "esfmin": -8,
+      "esfmax": 8,
+      "cilmin": -4,
+      "cilmax": 4,
+      "material": "Resina 1.67 ED",
+      "material_en": "Resina 1.67 ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li></ul>",
+      "help": "Ofrece una alta gama de bondades que ayudan a tener lentes más delgados que un paquete básico. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -6.00 a +6.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes.",
+      "help_en": "Ofrece una alta gama de bondades que ayudan a tener lentes más delgados que un paquete básico. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -6.00 a +6.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes."
+    },
+    {
+      "type_id": 5,
+      "pack_id": 5,
+      "price": 370.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina 1.67 HD ED",
+      "material_en": "Resina 1.67 HD ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.67</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li></ul>",
+      "help": "Ofrece la más alta tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -8.00 a +8.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual.",
+      "help_en": "Ofrece la más alta tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Índice de Refracción 1.67, es 30% más delgado que un lente de resina básico, su diseño asférico permite lentes más planos con mayor calidad óptica y finalmente es recomendable para medidas de la Esfera entre -8.00 a +8.00, para medidas más altas es recomendable que adquiera otro de nuestros paquetes de lentes que sean adecuados para su medida. -Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual."
+    },
+    {
+      "type_id": 5,
+      "pack_id": 6,
+      "price": 470.00,
+      "esfmin": -10,
+      "esfmax": 8,
+      "cilmin": -6,
+      "cilmax": 6,
+      "material": "Resina Free Form ED",
+      "material_en": "Resina Free Form ED",
+      "description": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>GRABADO LÁSER DE INICIALES</li></ul>",
+      "description_en": "<ul class='uk-list'><li>ÍNDICE DE REFRACCIÓN DE 1.50</li><li>LUNAS DE RESINA</li><li>PROTECCIÓN UV</li><li>PROTECCIÓN ANTI RAYAS</li><li>TECNOLOGÍA FREE FORM</li><li>GRABADO LÁSER DE INICIALES</li></ul>",
+      "help": "Ofrece la más avanzada tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Resina 1.5 con tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual. Es recomendable para medidas de la esfera entre -10.00 y +8.00. Grabado de iniciales del usuario, esta tecnología permite que pueda grabar hasta 2 iniciales del nombre del usuario, haciendo que sus lentes sean completamente personalizados.",
+      "help_en": "Ofrece la más avanzada tecnología computarizada en la fabricación de lentes. El material de las lentes es de Resina, el cual es un material hasta 50% más ligero que el vidrio. Protección UV, ofrece una capa adicional de protección contra los dañinos rayos UV. -Protección anti-rayas, permite lentes más resistente a las rayaduras, por lo tanto aumentas la duración del uso de tus lentes. Resina 1.5 con tecnología FreeForm, se elaboran los lentes de una manera totalmente computarizada permitiendo unos lentes con una mayor nitidez en el campo de visión, una menor magnificación a las imágenes percibidas y se ofrece lo último en calidad visual. Es recomendable para medidas de la esfera entre -10.00 y +8.00. Grabado de iniciales del usuario, esta tecnología permite que pueda grabar hasta 2 iniciales del nombre del usuario, haciendo que sus lentes sean completamente personalizados."
+    }
+  ],
+  "warranties": [
+    {
+      "name": "Garantía 01",
+      "name_en": "Warranty 01",
+      "slug": "warranty01",
+      "description": "Los lentes pueden romperse, pero no te preocupes con nuestra garantía eso no es problema",
+      "description_en": "Glasses can break, but do not worry about our warranty that is not a problem",
+      "price": 20,
+      "time": 1,
+      "period": "año",
+      "period_en": "year",
+      "help": "Explicación en español",
+      "help_en": "Explication in english",
+      "view": 0
+    }
+  ],
+  "aditionals": [
+    {
+      "name": "Hidrofóbico Antirreflejo",
+      "name_en": "Hydrophobic Anti-Reflection",
+      "description": "",
+      "description_en": "",
+      "image": "http://via.placeholder.com/250x150"
+    },
+    {
+      "name": "Fotocromático",
+      "name_en": "Photochromic",
+      "description": "Estos lentes tienen la propiedad de oscurecerse en función de la luminosidad natural de exteriores y aclararse en interiores.",
+      "description_en": "These glases have the property of darken depending on the natural luminosity of exteriors and rinsing indoors.",
+      "image": "http://via.placeholder.com/250x150"
+    },
+    {
+      "name": "Solares",
+      "name_en": "Solares",
+      "description": "",
+      "description_en": "",
+      "image": "http://via.placeholder.com/250x150"
+    }
+  ],
+  "options": [
+    {
+      "name": "Hidrofóbico antirreflejo",
+      "name_en": "Hydrophobic Anti-Reflection",
+      "description": "Estos lentes repelen el agua, suciedad y sustancias aceitosas haciendo más fácil su limpieza. Gracias a su capa protectora y a su halo azul, reducen considerablemente la fatiga visual, eliminando los reflejos molestos de la luz artificial como las luces de los autos  y son prácticamente invisibles lo cual brinda una apariencia más estética.",
+      "description_en": "These glasses repel water, dirt and oily substances making cleaning easier. Thanks to their protective coating and blue halo, they significantly reduce visual fatigue, eliminating the annoying reflections of artificial light like car lights and are virtually invisible which gives a more aesthetic appearance.",
+      "image": "/pages/producto/hidrofobico.png"
+    },
+    {
+      "name": "Básico",
+      "name_en": "Basic",
+      "description": "Son lentes fotocromáticos de gama básica que ofrecen oscurecimiento de los lentes en un rango entre 70% y 80% en exteriores y un grado de claridad de los lentes en un rango entre 5% y 10% en interiores.",
+      "description_en": "These are basic range photochromic lenses that offer lens darkening in the range of 70% to 80% outdoors and a degree of lens clarity in the range of 5% to 10% indoors.",
+      "image": ""
+    },
+    {
+      "name": "Transición",
+      "name_en": "Transition",
+      "description": "Son lentes fotocromáticos de marca reconocida a nivel mundial y que ofrecen oscurecimiento de los lentes en un rango entre 80% y 85% en exteriores y un grado de claridad de los lentes en un rango entre 1% y 5% en interiores.",
+      "description_en": "They are world-renowned photochromic lenses that offer lens darkening in the range of 80% to 85% outdoors and a degree of lens clarity in the range of 1% to 5% indoors.",
+      "image": ""
+    },
+    {
+      "name": "Polarizado",
+      "name_en": "Polarized",
+      "description": "Los lentes polarizados contienen un filtro especial que bloquea la luz reflejada y sólo deja pasar la luz útil permitiendo una visión sin reflejos y natural.",
+      "description_en": "Polarized lenses contain a special filter that blocks reflected light and only lets the useful light through allowing a natural and unreflective view.",
+      "image": "/pages/producto/polarizado.png"
+    },
+    {
+      "name": "Tinturado",
+      "name_en": "Tinted",
+      "description": "El tinte es aplicado a ambos lados de tus lentes con o sin medida y le da una apariencia de lentes de sol, lo cual te ayuda a poder ver con comodidad ante una luminosidad natural exterior.",
+      "description_en": "The dye is applied to both sides of your lenses with or without measure and gives you a sunglasses appearance, which helps you to be able to see comfortably against a natural external luminosity.",
+      "image": "/pages/producto/tinturado.png"
+    },
+    {
+      "name": "Espejado",
+      "name_en": "Espejado",
+      "description": "Poseen una capa de tratamiento reflectante en la cara externa que les permite reflejar el entorno y, por supuesto, la luz, protegiendo a los ojos del exceso de luminosidad de la luz directa y de los reflejos que se producen en superficies como el agua, la arena, la nieve o el asfalto.",
+      "description_en": "They have a reflective treatment layer on the outer side that allows them to reflect the environment and, of course, light, protecting the eyes from the excess lightness of direct light and the reflections that occur on surfaces such as water, sand, snow or asphalt.",
+      "image": "/pages/producto/espejado.png"
+    }
+  ],
+  "option_aditionals": [
+    {
+      "type_pack_id": 1,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 160.00
+    },
+    {
+      "type_pack_id": 1,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 1,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 470.00
+    },
+    {
+      "type_pack_id": 1,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 310.00
+    },
+    {
+      "type_pack_id": 1,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 1,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 2,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 90.00
+    },
+    {
+      "type_pack_id": 2,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 2,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 490.00
+    },
+    {
+      "type_pack_id": 2,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 310.00
+    },
+    {
+      "type_pack_id": 2,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 2,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 3,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 90.00
+    },
+    {
+      "type_pack_id": 3,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 510.00
+    },
+    {
+      "type_pack_id": 3,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 650.00
+    },
+    {
+      "type_pack_id": 3,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 330.00
+    },
+    {
+      "type_pack_id": 3,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 3,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 4,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 290.00
+    },
+    {
+      "type_pack_id": 4,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 190.00
+    },
+    {
+      "type_pack_id": 4,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 470.00
+    },
+    {
+      "type_pack_id": 4,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 4,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 4,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 5,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 280.00
+    },
+    {
+      "type_pack_id": 5,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 5,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 5,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 5,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 5,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 6,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 270.00
+    },
+    {
+      "type_pack_id": 6,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 6,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 360.00
+    },
+    {
+      "type_pack_id": 6,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 6,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 6,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 7,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 160.00
+    },
+    {
+      "type_pack_id": 7,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 7,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 470.00
+    },
+    {
+      "type_pack_id": 7,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 310.00
+    },
+    {
+      "type_pack_id": 7,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 7,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 8,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 90.00
+    },
+    {
+      "type_pack_id": 8,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 8,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 490.00
+    },
+    {
+      "type_pack_id": 8,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 310.00
+    },
+    {
+      "type_pack_id": 8,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 8,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 9,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 90.00
+    },
+    {
+      "type_pack_id": 9,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 510.00
+    },
+    {
+      "type_pack_id": 9,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 650.00
+    },
+    {
+      "type_pack_id": 9,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 330.00
+    },
+    {
+      "type_pack_id": 9,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 9,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 10,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 290.00
+    },
+    {
+      "type_pack_id": 10,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 190.00
+    },
+    {
+      "type_pack_id": 10,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 470.00
+    },
+    {
+      "type_pack_id": 10,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 10,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 10,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 11,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 280.00
+    },
+    {
+      "type_pack_id": 11,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 11,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 11,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 11,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 11,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 12,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 270.00
+    },
+    {
+      "type_pack_id": 12,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 12,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 360.00
+    },
+    {
+      "type_pack_id": 12,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 12,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 12,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 13,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 13,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 420.00
+    },
+    {
+      "type_pack_id": 13,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 680.00
+    },
+    {
+      "type_pack_id": 13,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 13,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 13,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 14,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 110.00
+    },
+    {
+      "type_pack_id": 14,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 440.00
+    },
+    {
+      "type_pack_id": 14,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 740.00
+    },
+    {
+      "type_pack_id": 14,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 14,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 14,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 15,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 270.00
+    },
+    {
+      "type_pack_id": 15,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 15,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 15,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 15,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 15,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 16,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 190.00
+    },
+    {
+      "type_pack_id": 16,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 16,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 16,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 16,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 16,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 17,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 250.00
+    },
+    {
+      "type_pack_id": 17,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 280.00
+    },
+    {
+      "type_pack_id": 17,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 420.00
+    },
+    {
+      "type_pack_id": 17,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 17,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 17,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 18,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 320.00
+    },
+    {
+      "type_pack_id": 18,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 280.00
+    },
+    {
+      "type_pack_id": 18,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 420.00
+    },
+    {
+      "type_pack_id": 18,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 18,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 18,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 19,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 370.00
+    },
+    {
+      "type_pack_id": 19,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 19,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 19,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 19,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 19,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 20,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 300.00
+    },
+    {
+      "type_pack_id": 20,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 20,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 20,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 20,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 20,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 21,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 370.00
+    },
+    {
+      "type_pack_id": 21,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 350.00
+    },
+    {
+      "type_pack_id": 21,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 600.00
+    },
+    {
+      "type_pack_id": 21,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 21,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 21,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 22,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 22,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 290.00
+    },
+    {
+      "type_pack_id": 22,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 500.00
+    },
+    {
+      "type_pack_id": 22,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 22,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 22,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 23,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 500.00
+    },
+    {
+      "type_pack_id": 23,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 290.00
+    },
+    {
+      "type_pack_id": 23,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 500.00
+    },
+    {
+      "type_pack_id": 23,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 23,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 23,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 24,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 500.00
+    },
+    {
+      "type_pack_id": 24,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 220.00
+    },
+    {
+      "type_pack_id": 24,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 24,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 24,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 24,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 25,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 160.00
+    },
+    {
+      "type_pack_id": 25,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 25,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 470.00
+    },
+    {
+      "type_pack_id": 25,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 310.00
+    },
+    {
+      "type_pack_id": 25,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 25,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 26,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 90.00
+    },
+    {
+      "type_pack_id": 26,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 26,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 490.00
+    },
+    {
+      "type_pack_id": 26,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 310.00
+    },
+    {
+      "type_pack_id": 26,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 26,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 27,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 90.00
+    },
+    {
+      "type_pack_id": 27,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 510.00
+    },
+    {
+      "type_pack_id": 27,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 650.00
+    },
+    {
+      "type_pack_id": 27,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 330.00
+    },
+    {
+      "type_pack_id": 27,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 27,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 28,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 290.00
+    },
+    {
+      "type_pack_id": 28,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 190.00
+    },
+    {
+      "type_pack_id": 28,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 470.00
+    },
+    {
+      "type_pack_id": 28,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 28,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 28,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 29,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 280.00
+    },
+    {
+      "type_pack_id": 29,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 29,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 29,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 29,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 29,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    },
+    {
+      "type_pack_id": 30,
+      "aditional_id": 1,
+      "option_id": 1,
+      "price": 270.00
+    },
+    {
+      "type_pack_id": 30,
+      "aditional_id": 2,
+      "option_id": 2,
+      "price": 180.00
+    },
+    {
+      "type_pack_id": 30,
+      "aditional_id": 2,
+      "option_id": 3,
+      "price": 360.00
+    },
+    {
+      "type_pack_id": 30,
+      "aditional_id": 3,
+      "option_id": 4,
+      "price": 0.00
+    },
+    {
+      "type_pack_id": 30,
+      "aditional_id": 3,
+      "option_id": 5,
+      "price": 50.00
+    },
+    {
+      "type_pack_id": 30,
+      "aditional_id": 3,
+      "option_id": 6,
+      "price": 150.00
+    }
+  ],
+  "aditcolors": [
+    {
+      "slug": "marron",
+      "name": "Marrón",
+      "name_en": "Brown"
+    },
+    {
+      "slug": "gris",
+      "name": "Gris",
+      "name_en": "Gray"
+    },
+    {
+      "slug": "verde",
+      "name": "Verde",
+      "name_en": "Green"
+    },
+    {
+      "slug": "rojo",
+      "name": "Rojo",
+      "name_en": "Red"
+    },
+    {
+      "slug": "azul",
+      "name": "Azul",
+      "name_en": "Blue"
+    },
+    {
+      "slug": "dorado",
+      "name": "Dorado",
+      "name_en": "Gold"
+    },
+    {
+      "slug": "plata",
+      "name": "Plata",
+      "name_en": "Silver"
+    }
+  ],
+  "optadit_color": [
+    {
+      "option_aditional_id": 3,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 3,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 3,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 4,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 4,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 5,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 5,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 5,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 5,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 6,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 6,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 6,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 6,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 8,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 8,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 9,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 9,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 9,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 10,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 10,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 12,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 12,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 12,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 12,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 14,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 14,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 20,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 20,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 26,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 26,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 32,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 32,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 44,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 44,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 50,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 50,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 56,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 56,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 62,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 62,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 68,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 68,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 74,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 74,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 80,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 80,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 98,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 98,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 104,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 104,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 122,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 122,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 128,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 128,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 134,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 134,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 140,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 140,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 152,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 152,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 158,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 158,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 164,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 164,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 170,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 170,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 176,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 176,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 15,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 15,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 15,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 21,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 21,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 21,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 33,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 33,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 39,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 39,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 39,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 45,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 45,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 45,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 51,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 51,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 51,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 57,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 57,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 57,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 69,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 69,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 75,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 81,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 81,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 99,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 99,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 99,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 105,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 105,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 105,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 123,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 123,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 123,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 129,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 129,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 129,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 135,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 135,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 147,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 147,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 147,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 153,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 153,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 153,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 159,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 159,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 159,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 165,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 165,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 165,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 177,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 177,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 16,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 16,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 40,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 40,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 46,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 46,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 52,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 52,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 148,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 148,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 154,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 154,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 160,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 160,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 23,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 23,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 23,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 23,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 29,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 29,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 29,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 29,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 35,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 35,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 35,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 35,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 41,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 41,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 41,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 41,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 59,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 59,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 59,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 59,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 65,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 65,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 65,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 65,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 71,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 71,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 71,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 71,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 77,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 77,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 77,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 77,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 89,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 89,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 89,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 89,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 101,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 101,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 101,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 101,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 107,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 107,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 107,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 107,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 113,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 113,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 113,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 113,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 125,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 125,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 125,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 125,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 137,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 137,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 137,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 137,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 143,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 143,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 143,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 143,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 149,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 149,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 149,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 149,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 167,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 167,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 167,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 167,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 173,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 173,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 173,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 173,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 179,
+      "aditcolor_id": 1
+    },
+    {
+      "option_aditional_id": 179,
+      "aditcolor_id": 2
+    },
+    {
+      "option_aditional_id": 179,
+      "aditcolor_id": 3
+    },
+    {
+      "option_aditional_id": 179,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 24,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 24,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 24,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 24,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 30,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 30,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 30,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 30,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 36,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 36,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 36,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 36,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 42,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 42,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 42,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 42,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 48,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 48,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 48,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 48,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 60,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 60,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 60,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 60,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 66,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 66,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 66,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 66,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 72,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 72,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 72,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 72,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 78,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 78,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 78,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 78,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 84,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 84,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 84,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 84,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 90,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 90,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 90,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 90,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 96,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 96,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 96,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 96,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 102,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 102,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 102,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 102,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 108,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 108,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 108,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 108,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 114,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 114,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 114,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 114,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 120,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 120,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 120,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 120,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 126,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 126,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 126,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 126,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 132,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 132,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 132,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 132,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 138,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 138,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 138,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 138,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 144,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 144,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 144,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 144,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 150,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 150,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 150,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 150,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 156,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 156,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 156,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 156,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 162,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 162,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 162,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 162,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 168,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 168,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 168,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 168,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 174,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 174,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 174,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 174,
+      "aditcolor_id": 7
+    },
+    {
+      "option_aditional_id": 180,
+      "aditcolor_id": 4
+    },
+    {
+      "option_aditional_id": 180,
+      "aditcolor_id": 5
+    },
+    {
+      "option_aditional_id": 180,
+      "aditcolor_id": 6
+    },
+    {
+      "option_aditional_id": 180,
+      "aditcolor_id": 7
+    }
+  ],
+  "sliders": [
+    {
+      "image": "/pages/inicio/slider1.jpg",
+      "buttons": 1
+    },
+    {
+      "image": "/pages/inicio/slider2.jpg",
+      "buttons": 2
+    },
+    {
+      "image": "/pages/inicio/slider3.jpg",
+      "buttons": 3
+    }
+  ],
+  "popups": [
+    {
+      "slug": "cupon-magico",
+      "name": "Cupón mágico",
+      "image": "/pages/inicio/popup.png",
+      "title": "CUPÓN MÁGICO",
+      "text_main": "Queremos brindarte un cupón de 50% de descuento por la compra de tu primera montura con I see glasses!",
+      "text_secondary": "Nota: Lunas básicas con protección UV incluidos en esta oferta",
+      "text_close": "No gracias, quiero pagar el precio regular",
+      "end_date": "2019-01-01",
+      "message_presentation": "La nueva forma de comprar lentes de medida por internet! | 50% de descuento en la compra de tu primera montura! |  Usa el código de cupón: ISEEGLASSES50.",
+      "message_coupon": "El descuento aplica solo a tu primera compra de monturas. Se limita a un solo uso del cupón por cliente. Lunas básicas monofocales con protección UV incluidas en esta oferta. Monturas marcadas como “Premium”, como “Promociones” y como “Gafas de sol” no aplican para este descuento.",
+      "coupon_id": 4
+    }
+  ]
+}

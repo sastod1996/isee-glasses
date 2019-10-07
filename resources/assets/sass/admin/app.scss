@@ -1,0 +1,228 @@
+// Fonts
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: url('/fonts/Titillium_Web/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'TitilliumWeb-Bold';
+  src: url('/fonts/Titillium_Web/TitilliumWeb-Bold.ttf');
+}
+
+// Variables
+@import "../variables.custom";
+
+// 2. Import default variables and available mixins.
+@import "node_modules/uikit/src/scss/variables-theme.scss";
+@import "node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 4. Import UIkit.
+@import "node_modules/uikit/src/scss/uikit-theme.scss";
+
+label {
+  color: #003d5d !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+}
+
+li > label {
+  font-weight: 100 !important;
+}
+
+.uk-form-controls label {
+  font-weight: 100 !important;
+}
+
+// Customize
+.uk-h0 {
+  font-size: 6rem;
+}
+
+.uk-light {
+  color: white !important;
+}
+
+.uk-form-large{
+  font-size: 16px;
+}
+
+.uk-navbar-nav > li > a {
+  font-size: 18px;
+  color: #003d5d;
+  height: 50px;
+}
+
+.isee-hr {
+  background-color: #003d5d;
+  height: 1px;
+  margin: 0;
+}
+
+.isee-navbar-right > li {
+  padding-left: 50px;
+}
+
+.isee-navbar-right > li > a {
+  font-weight: bolder;
+}
+
+.isee-background-green {
+  background-color: #a6dd2c;
+}
+
+.isee-color {
+  color: #003d5d !important;
+}
+
+.isee-background-gray {
+  background-color: #e7e4e5;
+}
+
+.isee-bold {
+  font-family: "TitilliumWeb-Bold" !important;
+}
+
+.isee-padding {
+  padding: 15px;
+}
+
+.isee-padding-xsmall {
+  padding: 10px;
+}
+
+.isee-padding-small {
+  padding: 15px;
+}
+
+.isee-padding-medium {
+  padding: 25px;
+}
+
+.isee-padding-large {
+  padding: 30px;
+}
+
+.isee-padding-xlarge {
+  padding: 40px;
+}
+
+.isee-cursor {
+  cursor: pointer;
+}
+
+#navbar {
+  .isee-hover a, .isee-hover .uk-active .isee.h6{
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .isee-hover a:hover, .isee-hover .uk-active .isee.h6:hover {
+    color: #a6dd2c !important;
+  }
+}
+
+.isee-padding-empty {
+  padding: 0;
+}
+
+.isee-h1 {
+  font-size: 2.625rem;
+}
+
+.isee-h2 {
+  font-size: 2rem;
+}
+
+.isee-h3 {
+  font-size: 1.5rem;
+}
+
+.isee-h4 {
+  font-size: 1.25rem;
+}
+
+.isee-h5 {
+  font-size: 18px;
+}
+
+.isee-h6 {
+  font-size: 14px;
+}
+
+.isee-h7 {
+  font-size: 12px;
+}
+
+#offcanvas-flip {
+  .uk-offcanvas-bar {
+    width: 60%;
+    background: white;
+  }
+
+  .uk-offcanvas-bar li a {
+    color: black;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+  // .uk-h1 {
+  //   font-size: 2.6rem;
+  // }
+
+  .uk-h0 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 640px) {
+  .uk-h1 {
+    font-size: 2rem;
+  }
+
+  .uk-h2 {
+    font-size: 1.8rem;
+  }
+
+  .uk-h3 {
+    font-size: 1.3rem;
+  }
+
+  .uk-h0 {
+    font-size: 2.6rem;
+  }
+
+  .isee-h3 {
+    font-size: 1.2rem;
+  }
+
+  .isee-h4 {
+    font-size: 1rem;
+  }
+
+  .isee-spacing-large {
+    letter-spacing: 8px;
+  }
+
+  .isee-spacing-small {
+    letter-spacing: 2px;
+  }
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination > * {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  padding-left: 20px;
+  position: relative;
+}
